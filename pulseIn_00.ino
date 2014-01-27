@@ -3,7 +3,7 @@
 
 
 double dasDelay=0;
-
+long pulseDuration;
 
 void setup() {
   pinMode(4, INPUT);
@@ -11,8 +11,10 @@ void setup() {
 }
 
 void loop() {
-
-  dasDelay= (double) ( pulseIn(4, HIGH) );
-  Serial.println(1/dasDelay);
+  
+  
+  pulseDuration= pulseIn(4, HIGH);
+  dasDelay = (1/(double)(pulseDuration/1000)) * 1000;
+  Serial.print(pulseDuration); Serial.print(" "); Serial.println(dasDelay);
   delay(100);
 }
