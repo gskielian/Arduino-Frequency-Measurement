@@ -2,7 +2,7 @@
 //rising edges (can be changed to FALLING or CHANGE as need be)
 
 
-long dasDelay=0;
+double dasDelay=0;
 
 
 void setup() {
@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
 
-  dasDelay=pulseIn(4, HIGH);
-  Serial.println(dasDelay);
+  dasDelay= (double) ( pulseIn(4, HIGH) );
+  Serial.println(1/dasDelay);
   delay(100);
 }
