@@ -11,11 +11,11 @@ There are two reliable methods I know of so far:
 * The FreqCount Library
 * strategically using `pulseIn()`
 
-### FreqCount Library
+## FreqCount Library
 
 //TODO create blurb on Freq Count Library
 
-### pulseIn()
+## pulseIn()
 
 The `pulseIn()` function can be used to detect the length of a pulse (it waits for the pulse to begin, and then returns the microsecond-width of said pulse).
 
