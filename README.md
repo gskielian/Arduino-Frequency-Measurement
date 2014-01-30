@@ -4,7 +4,7 @@ Arduino-Frequency-Measurement
 A collection &amp;&amp; comparison of methods for measuring frequency on the Arduino with credits
 
 
-## Methods
+### Methods
 
 There are two reliable methods I know of so far:
 
@@ -34,6 +34,6 @@ An example how how to utilze this for frequency detection is provided.
 - due to the `10us` lower limit, 100kHz is the upper limit for pulseIn's frequency detection
 
 
-### References:
+## References:
 
 http://tushev.org/articles/arduino/item/51-measuring-frequency-with-arduino
