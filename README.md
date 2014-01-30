@@ -11,6 +11,9 @@ There are two reliable methods I know of so far:
 * The FreqCount Library
 * strategically using `pulseIn()`
 
+
+---
+
 ## FreqCount Library
 
 //TODO create blurb on Freq Count Library
