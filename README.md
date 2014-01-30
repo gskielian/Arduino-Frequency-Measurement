@@ -16,7 +16,7 @@ I have thus far found and documented two robust methods for frequency measuremen
 //TODO create blurb on Freq Count Library
 
 #### Specs:
-* Range:  up to several MHz[1][1]
+* Range:  up to several MHz [1] [1]
 * Usage:  uses pin 5
 * Caveat: can alter pulse widths for `PWM` on other pwm pins.
 
@@ -41,4 +41,4 @@ An example how how to utilze this for frequency detection is provided.
 
 ## References:
 
-[1] : http://tushev.org/articles/arduino/item/51-measuring-frequency-with-arduino
+[1]: http://tushev.org/articles/arduino/item/51-measuring-frequency-with-arduino
