@@ -41,4 +41,6 @@ An example how how to utilze this for frequency detection is provided.
 
 ## References:
 
+* http://tushev.org/articles/arduino/item/51-measuring-frequency-with-arduino
+
 [1]: http://tushev.org/articles/arduino/item/51-measuring-frequency-with-arduino
