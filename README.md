@@ -16,7 +16,7 @@ I have thus far found and documented two robust methods for frequency measuremen
 //TODO create blurb on Freq Count Library
 
 #### Specs:
-* Range:  up to several MHz [ref] [1]
+* Range:  up to several MHz [[ref]] [1]
 * Usage:  uses pin 5
 * Caveat: can alter pulse widths for `PWM` on other pwm pins.
 
