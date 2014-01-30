@@ -1,12 +1,9 @@
 Arduino-Frequency-Measurement
 =============================
 
-A collection &amp;&amp; comparison of methods for measuring frequency on the Arduino with credits
+The Arduino can be used to do frequency measurement potentially up to several MHz (depending of which method you use).
 
-
-### Methods
-
-There are two reliable methods I know of so far:
+I have thus far found and documented two robust methods for frequency measurement on the Arduino:
 
 * The FreqCount Library
 * strategically using `pulseIn()`
@@ -17,6 +14,11 @@ There are two reliable methods I know of so far:
 ## FreqCount Library
 
 //TODO create blurb on Freq Count Library
+
+#### Specs:
+* Range:  up to several MHz[1][1]
+* Usage:  uses pin 5
+* Caveat: can alter pulse widths for `PWM` on other pwm pins.
 
 ## pulseIn()
 
@@ -39,4 +41,4 @@ An example how how to utilze this for frequency detection is provided.
 
 ## References:
 
-http://tushev.org/articles/arduino/item/51-measuring-frequency-with-arduino
+[1] : http://tushev.org/articles/arduino/item/51-measuring-frequency-with-arduino
