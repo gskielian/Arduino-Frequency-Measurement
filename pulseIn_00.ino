@@ -14,7 +14,11 @@ void loop() {
   
   
   pulseDuration= pulseIn(4, HIGH);
-  dasDelay = (1/(double)(pulseDuration/1000)) * 1000;
-  Serial.print(pulseDuration); Serial.print(" "); Serial.println(dasDelay);
-  delay(100);
+  dasDelay = (1/(double)(pulseDuration/1000)) * 1000 * 60;
+  
+  // OUTPUT FORMAT:
+  // pulse duration, rpm
+  
+  delay(100); 
+  Serial.print(pulseDuration); Serial.print(", "); Serial.println(dasDelay);
 }
