@@ -3,6 +3,8 @@ Arduino-Frequency-Measurement
 
 The Arduino can be used to do frequency measurement potentially up to several MHz (depending of which method you use).
 
+suppose you wanted perhaps to use an `Armstrong Discriminator Circuit`.
+
 I have thus far found and documented two robust methods for frequency measurement on the Arduino:
 
 * The FreqCount Library
